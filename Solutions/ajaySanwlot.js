@@ -15,6 +15,10 @@ function addb(a, b) {
 // subb(a, b) ⇒ number
 // Write a binary function subb that takes two numbers and returns their difference
 
+function subb(a, b) {
+  return a - b;
+}
+
 // mulb(a, b) ⇒ number
 // Write a binary function mulb that takes two numbers and returns their product
 
