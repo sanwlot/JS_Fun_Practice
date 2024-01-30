@@ -43,7 +43,9 @@ function maxb(a, b) {
 // add(...nums) ⇒ number
 // Write a function add that is generalized for any amount of arguments
 
-function add(...nums) {}
+function add(...nums) {
+  return nums.reduce((acc, curr) => acc + curr, 0);
+}
 
 // sub(...nums) ⇒ number
 // Write a function sub that is generalized for any amount of arguments
