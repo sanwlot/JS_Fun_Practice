@@ -57,6 +57,10 @@ function sub(...nums) {
 // mul(...nums) ⇒ number
 // Write a function mul that is generalized for any amount of arguments
 
+function mul(...nums) {
+  return nums.reduce((acc, curr) => acc * curr);
+}
+
 // min(...nums) ⇒ number
 // Write a function min that is generalized for any amount of arguments
 
