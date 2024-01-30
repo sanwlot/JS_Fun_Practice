@@ -50,6 +50,10 @@ function add(...nums) {
 // sub(...nums) ⇒ number
 // Write a function sub that is generalized for any amount of arguments
 
+function sub(...nums) {
+  return nums.reduce((acc, curr) => acc - curr);
+}
+
 // mul(...nums) ⇒ number
 // Write a function mul that is generalized for any amount of arguments
 
