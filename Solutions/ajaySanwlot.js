@@ -22,14 +22,28 @@ function subb(a, b) {
 // mulb(a, b) ⇒ number
 // Write a binary function mulb that takes two numbers and returns their product
 
+function mulb(a, b) {
+  return a * b;
+}
+
 // minb(a, b) ⇒ number
 // Write a binary function minb that takes two numbers and returns the smaller one
+
+function minb(a, b) {
+  return a < b ? a : b;
+}
 
 // maxb(a, b) ⇒ number
 // Write a binary function maxb that takes two numbers and returns the larger one
 
+function maxb(a, b) {
+  return a > b ? a : b;
+}
+
 // add(...nums) ⇒ number
 // Write a function add that is generalized for any amount of arguments
+
+function add(...nums) {}
 
 // sub(...nums) ⇒ number
 // Write a function sub that is generalized for any amount of arguments
