@@ -64,6 +64,10 @@ function mul(...nums) {
 // min(...nums) ⇒ number
 // Write a function min that is generalized for any amount of arguments
 
+function min(...nums) {
+  return nums.reduce((acc, curr) => (curr < acc ? curr : acc), Infinity);
+}
+
 // max(...nums) ⇒ number
 // Write a function max that is generalized for any amount of arguments
 
